@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    padding: 1rem;
+    width: 20%;
+}
+.section1{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.shipping {
+    width: 17rem;
+    display: flex;
+}
+.returns{
+    width: 17rem;
+    display: flex;
+}
+.authentic{
+    width: 17rem;
+    display: flex;
+}
+.brands{
+    width: 17rem;
+    display: flex;
+}
+
+.heading-of-features{
+    padding: 1rem 0 0.3rem 0;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+.content-of-features{
+    padding: 0.3rem 0;
+    font-weight: lighter;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+
+.socials{
+    margin-top: 4rem;
+    padding: 1rem 10rem;
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    width: 100%;
+}
+.head-of-socials{
+    text-align: center;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+
+.img-social{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yt:hover{
+    background-color: red;
+}
+.insta:hover{
+    background-color: rgb(184, 43, 255);
+}
+.fb:hover{
+    background-color: rgb(24, 102, 227);
+}
+.twitter:hover{
+    background-color: rgb(9, 194, 255);
+}
+.pinterest:hover{
+    background-color: darkred;
+}
+
+.yt:active{
+    transform: scale(0.9);
+}
+.insta:active{
+    transform: scale(0.9);
+}
+.fb:active{
+    transform: scale(0.9);
+}
+.twitter:active{
+    transform: scale(0.9);;
+}
+.pinterest:active{
+    transform: scale(0.9);
+}
+
+
